@@ -177,15 +177,6 @@ main .section-two{
     
 }
 
-main .section-two .container-s2{
-    position: absolute;
-    width: 1128px;
-    height: 224px;
-    top: 0px;
-    left: 0px;
-    padding: 0%;
-}
-
 main .section-two .container-s2 .features-ul{
     position: absolute;
     display: flex;
