@@ -177,7 +177,7 @@ main .section-two{
     
 }
 
-main .section-two .container-s2 .features-ul{
+main .section-two .features-ul{
     position: absolute;
     display: flex;
     list-style-type: none;
@@ -186,13 +186,14 @@ main .section-two .container-s2 .features-ul{
     width: 1128px;
     height: 104px;
     gap: 24px;
+    margin-left: 0px;
 }
 
-main .section-two .container-s2 .features-ul .features-li{
+main .section-two .features-ul .features-li{
     width: calc((100% - 72px) / 4);
 }
 
-main .section-two .container-s2 .features-ul .features-li .feature-h{
+main .section-two .features-ul .features-li .feature-h{
     margin-bottom: 8px;
     width: 264px;
     height: 24px;
@@ -204,7 +205,7 @@ main .section-two .container-s2 .features-ul .features-li .feature-h{
     color: #2E2F42;
 }
 
-main .section-two .container-s2 .features-ul .features-li p{
+main .section-two .features-ul .features-li p{
     width: 270px;
     height: 72px;
     font-family: "Roboto", sans-serif;
@@ -215,7 +216,7 @@ main .section-two .container-s2 .features-ul .features-li p{
     color: #434455;
 }
 
-main .section-two .container-s2 .features-ul .features-li .features-svg{
+main .section-two .features-ul .features-li .features-svg{
     display: flex;
     align-items: center;
     justify-content: center;
