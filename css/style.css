@@ -361,7 +361,7 @@ main .section-three .container-s3 .teamcard-ul .teamcard-li .team-member .social
 
 }
 
-main .section-four{
+main .section-four .container-s4{
     position: absolute;
     display: flex;
     padding: 120px 0;
@@ -371,7 +371,7 @@ main .section-four{
     left: 156px;
 }
 
-main .section-four .portfolio-top-h{
+main .section-four .container-s4 .portfolio-top-h{
     position: absolute;
     display: flex;
     width: 220px;
@@ -391,7 +391,7 @@ main .section-four .portfolio-top-h{
     margin: 0%;
 }
 
-main .section-four .portfolio-ul{
+main .section-four .container-s4 .portfolio-ul{
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -400,28 +400,28 @@ main .section-four .portfolio-ul{
     padding: 0%;
 }
 
-main .section-four .portfolio-ul .portfolio-li{
+main .section-four .container-s4 .portfolio-ul .portfolio-li{
     list-style-type: none;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 48px) / 3);
 }
 
-main .section-four .portfolio-ul .portfolio-li:hover{
+main .section-four .container-s4 .portfolio-ul .portfolio-li:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
 
-main .section-four .portfolio-ul .portfolio-li:hover .opening-p .portfolio-p-special{
+main .section-four .container-s4 .portfolio-ul .portfolio-li:hover .opening-p .portfolio-p-special{
     transform: translateY(0%);
 }
 
-main .section-four .portfolio-ul .portfolio-li .opening-p{
+main .section-four .container-s4 .portfolio-ul .portfolio-li .opening-p{
     position: relative;
     overflow: hidden;
 
 }
 
-main .section-four .portfolio-ul .portfolio-li .opening-p .portfolio-p-special{
+main .section-four .container-s4 .portfolio-ul .portfolio-li .opening-p .portfolio-p-special{
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -436,7 +436,7 @@ main .section-four .portfolio-ul .portfolio-li .opening-p .portfolio-p-special{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-main .section-four .portfolio-ul .portfolio-li .details{
+main .section-four .container-s4 .portfolio-ul .portfolio-li .details{
     padding: 32px 16px;
     border: 1px solid #e7e9fc ;
     border-top: none;
@@ -444,7 +444,7 @@ main .section-four .portfolio-ul .portfolio-li .details{
     width: 360px;
 }
 
-main .section-four .portfolio-ul .portfolio-li .details .portfolio-h{
+main .section-four .container-s4 .portfolio-ul .portfolio-li .details .portfolio-h{
     display: block;
     position: relative;
     width: 200px;
@@ -459,7 +459,7 @@ main .section-four .portfolio-ul .portfolio-li .details .portfolio-h{
 }
 
 
-main .section-four .portfolio-ul .portfolio-li .details .portfolio-p{
+main .section-four .container-s4 .portfolio-ul .portfolio-li .details .portfolio-p{
     display: block;
     position: relative;
     width: 30px;
