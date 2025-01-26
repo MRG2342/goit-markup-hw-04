@@ -412,7 +412,7 @@ main .section-four .container-s4 .portfolio-ul .portfolio-li:hover{
 }
 
 main .section-four .container-s4 .portfolio-ul .portfolio-li:hover .opening-p .portfolio-p-special{
-    transform: translateY(0%);
+    transform: translateY(100%);
 }
 
 main .section-four .container-s4 .portfolio-ul .portfolio-li .opening-p{
